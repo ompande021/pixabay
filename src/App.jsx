@@ -61,7 +61,7 @@ const App = () => {
 
     return(
         <section id="sec" >
-            <div id="box1" className="fixed h-[100vh] w-auto justify-center items-center flex-wrap flex-col z-40  hidden   ">
+            <div id="box1" className="fixed h-[100vh] w-full justify-center items-center flex-wrap flex-col z-40  hidden   ">
                 <div onClick={zoomout} className="cursor-pointer text-3xl text-red-800 w-auto flex justify-end z-50"><i class="fa-regular fa-circle-xmark"></i></div>    
                 <div className="z-50 opacity-100"><img id="Img" src={image} alt="" /> </div>
             </div>
