@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.category{
+    @apply h-10 w-auto px-2 hover:bg-gray-200 rounded-full flex justify-center items-center;
+}
+.options{
+    @apply px-2 border-2 border-gray-300 rounded-lg align-middle hover:border-black ;
+}
